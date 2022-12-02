@@ -1,0 +1,8 @@
+prefix=/home/liudandi/dff_ws/devel
+
+Name: Quarotor_Feedback_Controller
+Description: Description of Quarotor_Feedback_Controller
+Version: 0.0.0
+Cflags: -I/home/liudandi/dff_ws/src/Quarotor_Feedback_Controller/include
+Libs: -L${prefix}/lib 
+Requires: 
