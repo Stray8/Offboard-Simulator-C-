@@ -10,6 +10,7 @@ int main(int argc, char **argv){
   pose.pose.position.x = 0;
   pose.pose.position.y = 0;
   pose.pose.position.z = 2;
+  pose.header.stamp = ros::Time::now();
 
   c1.control(pose);
 
